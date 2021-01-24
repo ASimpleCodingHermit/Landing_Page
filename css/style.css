@@ -26,7 +26,6 @@ hr {
   font-weight: 700;
   border-radius: 30rem;
   text-transform: uppercase;
-  margin: 2rem 0;
   border: none;
 }
 
@@ -46,4 +45,25 @@ hr {
 
 .buttonXL {
   padding: 1rem 2rem;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.disclaimer {
+  margin: 2rem 0;
+  color: #d2d2d2;
+}
+
+.disclaimer > span a {
+  color: #d2d2d2;
+  background: #f05f44;
+}
+
+.disclaimer span a:hover {
+  background: #a3412f;
+  color: rgb(247, 247, 247);
+  text-shadow: 0 0 5 rgb(247, 247, 247);
+  font-weight: bold;
 }
